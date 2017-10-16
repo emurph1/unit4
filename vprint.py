@@ -2,8 +2,8 @@
 #2017-10-16
 #vprint.py - prints str vertically
 
-def vprint(ch):
+def vprint(word):
     for ch in word:
-    print(ch+'!')
+        print(ch)
     
-vprint('Smeds')
+vprint('Emily')
