@@ -8,5 +8,5 @@ def area(l, w):
 def per(l,w):
     print((l*2) + (w*2))
     
-area(3,4))
-per(3,4))
+area(3,4)
+per(3,4)
