@@ -15,4 +15,4 @@ def bigger(num1, num2): #prints which number is bigger --> anything in paranthes
         
 bigger(13,27) #test1
 bigger(-10,-15)
-bigger('Smeds', 'Kynor')
+bigger('B', 'C') #prints which is alphabetically first (num2) would have to be after num1 for it to print num2
