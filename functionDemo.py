@@ -3,4 +3,6 @@
 #functionDemo.py - learn how to write functions
 
 def hw():
-    print('Hello, World!")
+    print('Hello, World!')
+
+hw() #actually runs the function
