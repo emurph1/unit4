@@ -2,9 +2,9 @@
 #2017-10-16
 #countdown.py - it's a countdown
 
-def count(i)
-while i >=0:
-    print(i)
-    i-=1
-print('BOOM!')
+def count(i):
+    while i >=0:
+        print(i)
+        i-=1
+        print('BOOM!')
 count(5)
