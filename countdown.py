@@ -6,5 +6,5 @@ def count(i):
     while i >=0:
         print(i)
         i-=1
-        print('BOOM!')
 count(5)
+print('BOOM!')
