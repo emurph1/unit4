@@ -31,4 +31,6 @@ def mouseClick(event):
         Sprite(redRectangle)
 
 App().listenMouseEvent('click',mouseClick)
+
 App.run()
+
