@@ -11,5 +11,5 @@ def area(l, w):
 def per(l,w):
     print((l*2) + (w**2))
     
-print('Area is', area(3,4))
-print('Perimeter is', per(3,4)
+print('Area is', area(l,w))
+print('Perimeter is', per(l,w))
