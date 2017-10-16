@@ -7,7 +7,7 @@ def hw():
 
 hw() #actually runs the function
 
-def bigger(num1, num2): #prints which number is bigger
+def bigger(num1, num2): #prints which number is bigger --> anything in parantheses are called arguements
     if num1 > num2:
         print(num1)
     else:
@@ -15,3 +15,4 @@ def bigger(num1, num2): #prints which number is bigger
         
 bigger(13,27) #test1
 bigger(-10,-15)
+bigger('Smeds, Kynor')
