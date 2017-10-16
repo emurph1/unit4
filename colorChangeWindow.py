@@ -5,7 +5,7 @@
 from random import randint
 from ggame import *
 
-num == randint(1,4)
+num = randint(1,4)
 
 red = Color(0xFF0000,1)
 green = Color(0x00FF00,1)
@@ -15,10 +15,10 @@ white = Color(0xFFFFFF,1)
 
 whiteOutine = LineStyle(1, white)
 
-blueRectangle = RectangleAsset(500, 200, whiteOutline, blue)
-greenRectangle = RectangleAsset(500, 200, whiteOutline, green)
-blackRectangle = RectangleAsset(500, 200, whiteOutline, black)
-redRectangle = RectangleAsset(500, 200, whiteOutline, red)
+blueRectangle = RectangleAsset(500, 200, whiteOutine, blue)
+greenRectangle = RectangleAsset(500, 200, whiteOutine, green)
+blackRectangle = RectangleAsset(500, 200, whiteOutine, black)
+redRectangle = RectangleAsset(500, 200, whiteOutine, red)
 
 def mouseClick(event):
     if num == 1:
