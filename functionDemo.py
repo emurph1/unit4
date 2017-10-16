@@ -15,4 +15,4 @@ def bigger(num1, num2): #prints which number is bigger --> anything in paranthes
         
 bigger(13,27) #test1
 bigger(-10,-15)
-bigger('Smeds, Kynor')
+bigger('Smeds', 'Kynor')
