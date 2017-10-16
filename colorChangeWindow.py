@@ -20,7 +20,7 @@ greenRectangle = RectangleAsset(500, 200, whiteOutine, green)
 blackRectangle = RectangleAsset(500, 200, whiteOutine, black)
 redRectangle = RectangleAsset(500, 200, whiteOutine, red)
 
-def mouseClick(event):
+def mouseClick(Event):
     if num == 1:
         Sprite(blueRectangle)
     elif num == 2:
@@ -32,5 +32,5 @@ def mouseClick(event):
 
 App().listenMouseEvent('click',mouseClick)
 
-App.run()
+
 
