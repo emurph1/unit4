@@ -3,7 +3,7 @@
 #countdown.py - it's a countdown
 
 def count(i):
-    while i >=0:
+    while i >=1:
         print(i)
         i-=1
 count(5)
