@@ -3,5 +3,5 @@
 #printSquares.py - print squares
 
 for i in range(1,4):
-    print('+--')
-    print('|')
+    print('+--'*i)
+    print('|'*i)
