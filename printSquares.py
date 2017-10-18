@@ -7,4 +7,4 @@ def nums(num1,num2):
         print('+--'*num2)
         print('|'*num1)
 
-nums(1,5)
+nums(2,4)
