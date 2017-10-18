@@ -5,8 +5,6 @@
 from random import randint
 from ggame import *
 
-num = randint(1,4)
-
 red = Color(0xFF0000,1)
 green = Color(0x00FF00,1)
 blue = Color(0x0000FF,1)
@@ -21,6 +19,7 @@ blackRectangle = RectangleAsset(500, 200, whiteOutine, black)
 redRectangle = RectangleAsset(500, 200, whiteOutine, red)
 
 def mouseClick(Event):
+    num = randint(1,4)
     if num == 1:
         Sprite(blueRectangle)
     elif num == 2:
