@@ -4,7 +4,7 @@
 
 def nums(num1,num2):
     for i in range(num1,num2):
-        print(('+--'*num2 + '+')+1)
+        print('+--'*num2 + '+'
         print('|  '*num2 + '|')
 
 
