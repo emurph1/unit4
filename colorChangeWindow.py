@@ -13,10 +13,10 @@ white = Color(0xFFFFFF,1)
 
 whiteOutine = LineStyle(1, white)
 
-blueRectangle = RectangleAsset(900, 900, whiteOutine, blue)
-greenRectangle = RectangleAsset(900, 900, whiteOutine, green)
-blackRectangle = RectangleAsset(900, 900, whiteOutine, black)
-redRectangle = RectangleAsset(900, 900, whiteOutine, red)
+blueRectangle = RectangleAsset(1500, 900, whiteOutine, blue)
+greenRectangle = RectangleAsset(1500, 900, whiteOutine, green)
+blackRectangle = RectangleAsset(1500, 900, whiteOutine, black)
+redRectangle = RectangleAsset(1500, 900, whiteOutine, red)
 
 def mouseClick(Event):
     num = randint(1,4)
