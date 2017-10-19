@@ -9,6 +9,9 @@ ROWS = 31
 COLS = 54
 CELL_SIZE = 20
 
+def moveRight(event):
+    monkey.x
+
 if __name__ == '__main__':
     
     green = Color(0x006600,1)
@@ -23,6 +26,6 @@ if __name__ == '__main__':
     Sprite(monkeyBox)
     Sprite(bananaBox, ((COLS*CELL_SIZE)/2, (ROWS*CELL_SIZE)/2))
     
-    
+    App().listenKeyEvents('keydown', 'right arrow', moveRight)
     App().run()
 
