@@ -5,8 +5,8 @@
 from ggame import *
 
 #constants
-ROWS = 15
-COLS = 20
+ROWS = 31
+COLS = 54
 CELL_SIZE = 20
 
 if __name__ == '__main__':
@@ -22,6 +22,7 @@ if __name__ == '__main__':
     Sprite(jungleBox)
     Sprite(monkeyBox)
     Sprite(bananaBox, ((COLS*CELL_SIZE)/2, (ROWS*CELL_SIZE)/2))
+    
     
     App().run()
 
