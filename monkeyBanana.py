@@ -15,8 +15,10 @@ if __name__ == '__main__':
     brown = Color(0x,884513,1)
     
     jungleBox = RectangleAsset(COLS*CELL_SIZE,ROWS*CELL_SIZE,LineStyle(1,green),green)
+    brownBox = RectangleAsset(CELL_SIZE, CELL_SIZE, LineStyle(1,brown),brown)
     
     Sprite(jungleBox)
+    Sprite(brownBox)
     
     App().run()
 
