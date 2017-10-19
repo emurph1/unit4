@@ -17,5 +17,5 @@ if __name__ == '__main__':
     
     Sprite(jungleBox)
     
-App().run()
+    App().run()
 
