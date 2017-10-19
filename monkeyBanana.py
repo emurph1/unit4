@@ -10,7 +10,7 @@ COLS = 54
 CELL_SIZE = 20
 
 def moveRight(event):
-    monkey.x += CELL_SIZE
+    monkeyBox.x += CELL_SIZE
 
 if __name__ == '__main__':
     
@@ -26,6 +26,6 @@ if __name__ == '__main__':
     Sprite(monkeyBox)
     Sprite(bananaBox, ((COLS*CELL_SIZE)/2, (ROWS*CELL_SIZE)/2))
     
-    App().listenKeyEvents('keydown', 'right arrow', moveRight)
+    App().listenKeyEvent('keydown', 'right arrow', moveRight)
     App().run()
 
