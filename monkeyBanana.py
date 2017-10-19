@@ -12,6 +12,7 @@ CELL_SIZE = 20
 if __name__ == '__main__':
     
     green = Color(0x006600,1)
+    brown = Color(0x,884513,1)
     
     jungleBox = RectangleAsset(COLS*CELL_SIZE,ROWS*CELL_SIZE,LineStyle(1,green),green)
     
