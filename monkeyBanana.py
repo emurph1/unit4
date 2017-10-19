@@ -3,6 +3,7 @@
 #monkeyBanana.py - monkey banana game
 
 from ggame import *
+from random import randint
 
 #constants
 ROWS = 30
@@ -25,6 +26,11 @@ def moveDown(event):
     if monkey.y < (ROWS-1)*CELL_SIZE:
         monkey.y += CELL_SIZE
 
+def moveBanana():
+    banana.x = randint(0, COLS-1)*CELL_SIZE
+    banana.y = randint(0, ROWS-1)*CELL_SIZE
+    
+
 if __name__ == '__main__':
     
     green = Color(0x006600,1)
@@ -36,7 +42,7 @@ if __name__ == '__main__':
     bananaBox = RectangleAsset(CELL_SIZE, CELL_SIZE, LineStyle(1,yellow),yellow)
     
     Sprite(jungleBox)
-    Sprite(bananaBox, ((COLS*CELL_SIZE)/2, (ROWS*CELL_SIZE)/2))
+    banana = Sprite(bananaBox, ((COLS*CELL_SIZE)/2, (ROWS*CELL_SIZE)/2))
     monkey = Sprite(monkeyBox)
     
     App().listenKeyEvent('keydown', 'right arrow', moveRight)
