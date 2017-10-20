@@ -5,8 +5,8 @@
 
 def stringUnion(word1, word2):
     for ch in word1:
-        return ch
-            
+        print(ch)
+    for ch in word2:
+        print(ch)
         
 stringUnion('Mississippi', 'Pennslyvania')
-print(ch)
