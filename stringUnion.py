@@ -4,11 +4,11 @@
 
 
 def stringUnion(word1, word2):
+    answer = ' '
     for ch in word1:
-        print(ch)
+        answer += ch
     for ch in word2:
-        print(ch)
-        if ch in word1 == word2:
-            print(ch)
+        if ch in word2 = answer:
+            print(answer)
         
 stringUnion('Mississippi', 'Pennslyvania')
