@@ -4,7 +4,8 @@
 
 
 def stringUnion(word1, word2):
-    if ch in word1 == word2:
-        return str(ch)
+    for ch in word1:
+        if ch in word1 == word2:
+            return str(ch)
         
 stringUnion('Mississippi', 'Pennslyvania')
