@@ -9,7 +9,7 @@ def stringUnion(word1, word2):
         if ch not in answer:
             answer += ch
     for ch in word2:
-        if ch not in answer:
+        if ch not in answer2:
             answer += ch
     return answer
         
