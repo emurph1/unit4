@@ -16,6 +16,6 @@ def stringUnion(word1, word2):
     for ch in word1 and word2:
         if answer == answer2:
             answer3 += ch
-    return answer
+    
         
 print(stringUnion('mississippi', 'pennslyvania'))
