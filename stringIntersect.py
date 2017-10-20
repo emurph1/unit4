@@ -4,8 +4,8 @@
 
 
 def stringUnion(word1, word2):
-    answer = ' '
-    answer2 = ' '
+    answer = ''
+    answer2 = ''
     answer3 = ''
     for ch in word1:
         if ch not in answer:
@@ -16,6 +16,6 @@ def stringUnion(word1, word2):
     for ch in word1 and word2:
         if answer == answer2:
             answer3 += ch
-            return answer
+    return answer
         
-print(stringUnion('Mississippi', 'Pennslyvania'))
+print(stringUnion('mississippi', 'pennslyvania'))
