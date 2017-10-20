@@ -13,5 +13,4 @@ def stringUnion(word1, word2):
             answer += ch
     return answer
         
-stringUnion('Mississippi', 'Pennslyvania')
-print(answer)
+print(stringUnion('Mississippi', 'Pennslyvania'))
