@@ -13,7 +13,8 @@ def stringUnion(word1, word2):
     for ch in word2:
         if ch not in answer2:
             answer2 += ch
-    for 
-    return answer
+    for ch in word1 and word2:
+        if answer == answer2:
+            return answer
         
 print(stringUnion('Mississippi', 'Pennslyvania'))
