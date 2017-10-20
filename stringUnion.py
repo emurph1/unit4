@@ -9,3 +9,4 @@ def stringUnion(word1, word2):
             
         
 stringUnion('Mississippi', 'Pennslyvania')
+print(ch)
