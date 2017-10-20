@@ -6,6 +6,7 @@
 def stringUnion(word1, word2):
     answer = ' '
     answer2 = ' '
+    answer3 = ''
     for ch in word1:
         if ch not in answer:
             answer += ch
