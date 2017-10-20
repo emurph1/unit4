@@ -5,12 +5,14 @@
 
 def stringUnion(word1, word2):
     answer = ' '
+    answer2 = ' '
     for ch in word1:
         if ch not in answer:
             answer += ch
     for ch in word2:
         if ch not in answer2:
-            answer += ch
+            answer2 += ch
+    for 
     return answer
         
 print(stringUnion('Mississippi', 'Pennslyvania'))
