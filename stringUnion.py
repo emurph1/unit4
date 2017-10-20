@@ -6,9 +6,10 @@
 def stringUnion(word1, word2):
     answer = ' '
     for ch in word1:
-        answer += ch
+        if ch not in answer:
+            answer += ch
     for ch in word2:
-        if ch in word2 == answer:
-            print(answer)
+        if ch not in answer:
+            answer += ch
         
 stringUnion('Mississippi', 'Pennslyvania')
