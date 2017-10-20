@@ -11,6 +11,7 @@ def stringUnion(word1, word2):
     for ch in word2:
         if ch not in answer:
             answer += ch
-            return answer
+    return answer
         
 stringUnion('Mississippi', 'Pennslyvania')
+print(answer)
