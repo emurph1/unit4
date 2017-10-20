@@ -8,5 +8,7 @@ def stringUnion(word1, word2):
         print(ch)
     for ch in word2:
         print(ch)
+        if ch in word1 == word2:
+            print(ch)
         
 stringUnion('Mississippi', 'Pennslyvania')
