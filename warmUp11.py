@@ -4,7 +4,8 @@
 
 def prime(num):
     while True:
-        if num // 1 and num == 0:
+        num = num//i
+        if num == 0 or num:
             return 'True'
         else:
             return 'False'
