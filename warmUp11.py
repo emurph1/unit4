@@ -4,9 +4,9 @@
 
 def prime(num):
     if num%num == 0 and num%1 == num:
-        return True
+        return 'True'
     else:
-        return False
+        return 'False'
 
 
 prime(17)
