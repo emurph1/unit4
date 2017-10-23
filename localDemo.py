@@ -9,3 +9,4 @@ def f():
 x = 5
 f() #x does not change
 print(x)
+print(y) #this will cause an error
