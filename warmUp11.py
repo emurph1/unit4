@@ -6,7 +6,7 @@
 def prime(num):
     x = num - 1
     while num > 1:
-        if num // 0:
+        if num // x == 0:
             return 'True'
         else:
             return 'False'
