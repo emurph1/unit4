@@ -3,7 +3,7 @@
 #warmUp11.py - determine if number is prime
 
 def prime(num):
-    if num // num == 1 and num // 1 == num:
+    if num%num == 0 and num%1 == num:
         return 'True'
     else:
         return 'False'
