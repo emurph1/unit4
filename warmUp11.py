@@ -8,4 +8,4 @@ def prime(num):
     else:
         return 'False'
 
-print(prime(10))
+print(prime(17))
