@@ -2,11 +2,11 @@
 #2017-10-23
 #warmUp11.py - determine if number is prime
 
-i += 1
+
 def prime(num):
-    while i <= num:
-        num = num//i
-        if num == 0 or num:
+    x = num - 1
+    while num > 1:
+        if num // 0:
             return 'True'
         else:
             return 'False'
