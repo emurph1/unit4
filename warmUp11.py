@@ -3,12 +3,12 @@
 #warmUp11.py - determine if number is prime
 
 
-def prime(num):
-    x = num - 1
-    while num > 1:
-        if num // x == 0:
-            return 'True'
-        else:
-            return 'False'
-
-print(prime(17))
+def	isPrime(num):
+	for	i in range(2,num):
+		if	num%i==	0:
+			return	False
+		return	True
+												
+print(isPrime(10))	#test1
+print(isPrime(11))	#test2
+print(isPrime(12))	#test3
