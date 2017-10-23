@@ -2,8 +2,8 @@
 #2017-10-23
 #warmUp11.py - determine if number is prime
 
+i += 1
 def prime(num):
-    i += 1
     while i <= num:
         num = num//i
         if num == 0 or num:
