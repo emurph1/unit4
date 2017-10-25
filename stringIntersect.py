@@ -14,7 +14,7 @@ def stringUnion(word1, word2):
         if ch not in answer2:
             answer2 += ch
     
-    for ch in answer1:
+    for ch in answer:
         if ch in answer2:
             answer3 += ch
     return answer3
