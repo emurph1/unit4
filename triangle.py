@@ -6,9 +6,9 @@ from math import sqrt
 
 x1 = int(input('x1:'))
 x2 = int(input('x2:'))
+x3 = int(input('x3:'))
 y1 = int(input('y1:'))
 y2 = int(input('y2:'))
-x3 = int(input('x3:'))
 y3 = int(input('y3:'))
 
 def distance(x1,y1,x2,y2):
