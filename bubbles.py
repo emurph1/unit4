@@ -17,7 +17,7 @@ whiteOutline = LineStyle(10, white)
 
 def mouseClick(Event):
     num = randint(1,4)
-    radius = randint(1,200)
+    radius = randint(1,100)
     if num == 1:
         Circle = CircleAsset(radius, whiteOutline, green)
     elif num == 2:
