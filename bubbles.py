@@ -26,7 +26,7 @@ def mouseClick(Event):
     elif num == 4:
         Circle = CircleAsset(100, whiteOutline, yellow)
     x = randint(200,800)
-    y = randint(200,800)
+    y = randint(800,200)
     Sprite(Circle,(x,y))
         
 
