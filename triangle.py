@@ -20,8 +20,7 @@ c = distance(x2,y2,x3,y3)
 s = .5*(a + b + c)
 area = (sqrt(s*(s-a)*(s-b)*(s-c)))
 
-
-print(area)
+print(round(area,1))
 
 
     
