@@ -27,7 +27,7 @@ def mouseClick(Event):
         yellowCircle = CircleAsset(100, whiteOutline, yellow)
     x = randint(200,800)
     y = randint(200,800)
-    Sprite(yellowCircle,(x,y))
+    Sprite(num,(x,y))
         
 
 App().listenMouseEvent('click',mouseClick)
