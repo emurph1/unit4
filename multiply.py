@@ -5,7 +5,7 @@
 from random import randint
 
 numCorrect = 0
- def encourage():
+def encourage():
     if numCorrect == 5:
         num= randint(1,4)
         if num == 1:
