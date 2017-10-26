@@ -6,17 +6,17 @@ from random import randint
 
 numCorrect = 0
  def encourage():
-        if numCorrect == 5:
-            num= randint(1,4)
-            if num == 1:
-                print('Great job!')
-            elif num == 2:
-                print('Keep going!')
-            elif num == 3:
-                print('You are a math wizard!')
-            elif num == 4:
-                print('Watch out world, here comes the next great multiplier!')
-        return encourage
+    if numCorrect == 5:
+        num= randint(1,4)
+        if num == 1:
+            print('Great job!')
+        elif num == 2:
+            print('Keep going!')
+        elif num == 3:
+            print('You are a math wizard!')
+        elif num == 4:
+            print('Watch out world, here comes the next great multiplier!')
+    return encourage
 while True:
     num1 = randint(1,12)
     num2 = randint(1,12)
