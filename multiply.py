@@ -25,7 +25,7 @@ while True:
     if num1 * num2 == answer:
         numCorrect += 1
         if numCorrect == 5:
-            numcorrect == 0
+            numCorrect == 0
     else: 
         print('Incorrect. Try again')
 
