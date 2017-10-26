@@ -8,17 +8,22 @@ green = Color(0x00FF00,1)
 blue = Color(0x0000FF,1)
 black = Color(0x000000,1)
 white = Color(0xFFFFFF,1)
+yellow = Color(0xFFFF33,1)
+
+
+whiteOutline = LineStyle(10, white)
+
 
 def mouseClick(Event):
     num = randint(1,4)
     if num == 1:
-        Sprite(blueRectangle)
+        greenCircle = CircleAsset(100, whiteOutline, green)
     elif num == 2:
-        Sprite(greenRectangle)
+        blueCircle = CircleAsset(100, whiteOutline, blue)
     elif num == 3:
-        Sprite(blackRectangle)
+        redCircle = CircleAsset(100, whiteOutline, red)
     elif num == 4:
-        Sprite(redRectangle)
+        yellowCircle = CircleAsset(100, whiteOutline, yellow)
         
 
 App().listenMouseEvent('click',mouseClick)
