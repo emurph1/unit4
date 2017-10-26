@@ -18,16 +18,16 @@ whiteOutline = LineStyle(10, white)
 def mouseClick(Event):
     num = randint(1,4)
     if num == 1:
-        greenCircle = CircleAsset(100, whiteOutline, green)
+        Circle = CircleAsset(100, whiteOutline, green)
     elif num == 2:
-        blueCircle = CircleAsset(100, whiteOutline, blue)
+        Circle = CircleAsset(100, whiteOutline, blue)
     elif num == 3:
-        redCircle = CircleAsset(100, whiteOutline, red)
+        Circle = CircleAsset(100, whiteOutline, red)
     elif num == 4:
-        yellowCircle = CircleAsset(100, whiteOutline, yellow)
+        Circle = CircleAsset(100, whiteOutline, yellow)
     x = randint(200,800)
     y = randint(200,800)
-    Sprite(num,(x,y))
+    Sprite(Circle,(x,y))
         
 
 App().listenMouseEvent('click',mouseClick)
