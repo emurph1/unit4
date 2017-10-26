@@ -5,19 +5,27 @@
 from random import randint
 
 numCorrect = 0
-
-while True:
-    def encourage():
-        if numcorrect == 5:
-            numcorrect == 0
-            print('You are doing great! Keep going')
+ def encourage():
+        if numCorrect == 5:
+            num= randint(1,4)
+            if num == 1:
+                print('Great job!')
+            elif num == 2:
+                print('Keep going!')
+            elif num == 3:
+                print('You are a math wizard!')
+            elif num == 4:
+                print('Watch out world, here comes the next great multiplier!')
         return encourage
+while True:
     num1 = randint(1,12)
     num2 = randint(1,12)
     question = 'What is ' + str(num1) + ' * ' + str(num2) + '?'
     answer = int(input(question))
     if num1 * num2 == answer:
         numCorrect += 1
+        if numCorrect == 5:
+            numcorrect == 0
     else: 
         print('Incorrect. Try again')
 
