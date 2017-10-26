@@ -15,8 +15,9 @@ while True:
     question = 'What is ' + str(num1) + ' * ' + str(num2) + '?'
     answer = int(input(question))
     if num1 * num2 == answer:
-        print(encourage)
+        return encourage
         numCorrect += 1
     else: 
         print('Incorrect. Try again')
 
+print(encourage)
