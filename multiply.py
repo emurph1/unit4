@@ -5,7 +5,7 @@
 from random import randint
 
 numCorrect = 0
-while numCorrect < 5:
+while True:
     num1 = randint(1,12)
     num2 = randint(1,12)
     question = 'What is ' + str(num1) + ' + ' + str(num2) + '?'
@@ -14,4 +14,7 @@ while numCorrect < 5:
         print('Correct')
         numCorrect += 1
 
-
+def encourage():
+    if numcorrect == 5:
+        numcorrect == 0
+        print('You are doing great! Keep going')
