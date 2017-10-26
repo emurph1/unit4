@@ -1,7 +1,7 @@
 #Emily Murphy
 #2017-10-26
 #bubbles.py - opens window and click causes bubbles to appear
-
+from ggame import *
 
 red = Color(0xFF0000,1)
 green = Color(0x00FF00,1)
