@@ -8,9 +8,9 @@ numCorrect = 0
 
 while True:
     def encourage():
-    if numcorrect == 5:
-        numcorrect == 0
-        print('You are doing great! Keep going')
+        if numcorrect == 5:
+            numcorrect == 0
+            print('You are doing great! Keep going')
     num1 = randint(1,12)
     num2 = randint(1,12)
     question = 'What is ' + str(num1) + ' * ' + str(num2) + '?'
