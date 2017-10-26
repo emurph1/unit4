@@ -11,12 +11,12 @@ while True:
         if numcorrect == 5:
             numcorrect == 0
             print('You are doing great! Keep going')
+        return encourage
     num1 = randint(1,12)
     num2 = randint(1,12)
     question = 'What is ' + str(num1) + ' * ' + str(num2) + '?'
     answer = int(input(question))
     if num1 * num2 == answer:
-        print(encourge)
         numCorrect += 1
     else: 
         print('Incorrect. Try again')
