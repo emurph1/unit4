@@ -16,6 +16,7 @@ def encourage():
             print('You are a math wizard!')
         elif num == 4:
             print('Watch out world, here comes the next great multiplier!')
+    
 while True:
     num1 = randint(1,12)
     num2 = randint(1,12)
