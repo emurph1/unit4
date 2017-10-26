@@ -26,6 +26,7 @@ while True:
         numCorrect += 1
         if numCorrect == 5:
             numCorrect == 0
+            print(encourage)
     else: 
         print('Incorrect. Try again')
 
