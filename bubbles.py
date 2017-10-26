@@ -17,14 +17,15 @@ whiteOutline = LineStyle(10, white)
 
 def mouseClick(Event):
     num = randint(1,4)
+    radius = randint(1,200)
     if num == 1:
-        Circle = CircleAsset(100, whiteOutline, green)
+        Circle = CircleAsset(radius, whiteOutline, green)
     elif num == 2:
-        Circle = CircleAsset(100, whiteOutline, blue)
+        Circle = CircleAsset(radius, whiteOutline, blue)
     elif num == 3:
-        Circle = CircleAsset(100, whiteOutline, red)
+        Circle = CircleAsset(radius, whiteOutline, red)
     elif num == 4:
-        Circle = CircleAsset(100, whiteOutline, yellow)
+        Circle = CircleAsset(radius, whiteOutline, yellow)
     x = randint(100,900)
     y = randint(100,500)
     Sprite(Circle,(x,y))
