@@ -16,7 +16,6 @@ def encourage():
             print('You are a math wizard!')
         elif num == 4:
             print('Watch out world, here comes the next great multiplier!')
-    return encourage
 while True:
     num1 = randint(1,12)
     num2 = randint(1,12)
@@ -25,8 +24,8 @@ while True:
     if num1 * num2 == answer:
         numCorrect += 1
         if numCorrect == 5:
-            numCorrect == 0
-            print(encourage)
+            numCorrect = 0
+            encourage()
     else: 
         print('Incorrect. Try again.')
 
