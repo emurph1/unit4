@@ -28,5 +28,5 @@ while True:
             numCorrect == 0
             print(encourage)
     else: 
-        print('Incorrect. Try again')
+        print('Incorrect. Try again.')
 
