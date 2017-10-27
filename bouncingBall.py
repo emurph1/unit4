@@ -11,7 +11,7 @@ white = Color(0xFFFFFF,1)
 whiteOutline = LineStyle(1, white)
 blackOutline = LineStyle(10, black)
 
-blueRectangle = RectangleAsset(900, 500, whiteOutline, blue)
+blueRectangle = RectangleAsset(900, 600, whiteOutline, blue)
 
 Sprite(blueRectangle)
 
