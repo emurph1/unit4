@@ -11,9 +11,12 @@ white = Color(0xFFFFFF,1)
 whiteOutline = LineStyle(1, white)
 blackOutline = LineStyle(10, black)
 
-blueRectangle = RectangleAsset(900, 600, whiteOutline, blue)
+blackRectangle = RectangleAsset(900, 600, whiteOutline, black)
+blueCircle = CircleAsset(radius, whiteOutline, blue)
+
+
 
 Sprite(blueRectangle)
-
+Sprite(blueCircle)
 
 App().run()
