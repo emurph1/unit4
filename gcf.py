@@ -10,6 +10,6 @@ def gcf(num1,num2):
         else:
             x = (num1-x)
             
-gcf(10,15)
+print(gcf(10,15))
         
         
