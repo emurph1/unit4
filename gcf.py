@@ -3,7 +3,7 @@
 #gcf.py - Greatest common factor between two numbers
 
 def gcf(num1,num2):
-    num = num1-1
+    num = int(num1-1)
     for num in num1:
         if num2//num == 0:
             return answer
