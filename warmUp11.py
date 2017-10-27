@@ -3,9 +3,9 @@
 #warmUp11.py - determine if number is prime
 
 
-def	isPrime(num):
-	for	i in range(2,num):
-		if	num%i==	0:
+def isPrime(num):
+	for i in range(2,num):
+		if num%i==0:
 			return	False
 		return	True
 												
