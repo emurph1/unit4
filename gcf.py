@@ -5,7 +5,7 @@
 def gcf(num1,num2):
     x = min(num1,num2)
     for i in range(x,0,-1):
-        if i%num1 and i%num2:
+        if num1%i == 0 and num2%i == 0:
             return x
             
 print(gcf(10,15))
