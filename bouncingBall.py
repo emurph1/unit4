@@ -11,7 +11,7 @@ white = Color(0xFFFFFF,1)
 whiteOutline = LineStyle(1, white)
 blackOutline = LineStyle(10, black)
 
-blackRectangle = RectangleAsset(900, 600, whiteOutline, black)
+blackRectangle = RectangleAsset(900, 600, blackOutline, black)
 blueCircle = CircleAsset(100, whiteOutline, blue)
 
 
