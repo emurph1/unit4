@@ -17,6 +17,6 @@ blueCircle = CircleAsset(radius, whiteOutline, blue)
 
 
 Sprite(blueRectangle)
-Sprite(blueCircle)
+Sprite(blueCircle,(200,300))
 
 App().run()
