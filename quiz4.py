@@ -10,9 +10,9 @@ def csia(word):
 csia('Computer Science is Awesome')
 
 def average(num1, num2, num3):
-    print((num1+num2+num3)/3)
+    return (num1+num2+num3)/3
 
-average(1,2,3)
+print(average(1,2,3))
 
 def lastLetter(word):
     for ch in word:
@@ -21,7 +21,7 @@ lastLetter('good')
 
 def same(x,y):
     if x == y:
-        return 'True'
+        return True
     else:
-        return 'False'
-same(1,1)
+        return False
+print(same('hi','hi'))
