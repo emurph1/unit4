@@ -16,7 +16,7 @@ print(average(1,2,3))
 
 def lastLetter(letter):
     for ch in letter:
-        letter += ch
+        letter -= ch
         print(ch)
 lastLetter('good')
 
