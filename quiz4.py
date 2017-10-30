@@ -14,10 +14,10 @@ def average(num1, num2, num3):
 
 print(average(1,2,3))
 
-def lastLetter(letter):
-    for ch in letter:
+def lastLetter(word):
+    for ch in word:
         letter = ch
-        print(ch)
+        print(letter)
 lastLetter('good')
 
 def same(x,y):
