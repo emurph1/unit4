@@ -20,8 +20,8 @@ def lastLetter(word):
 lastLetter('good')
 
 def same(x,y):
-    if x = y:
-        return True
+    if x == y:
+        return 'True'
     else:
-        return False
+        return 'False'
 same(1,1)
