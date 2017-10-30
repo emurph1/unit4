@@ -12,7 +12,10 @@ def average(num1, num2, num3):
 average(1,2,3)
 
 def lastLetter(word):
+    length = len(word)
+    last = max(length)
     for ch in word:
-        length = len(word)
-        print(length)
+        if ch == last:
+            print(ch)
+        
 lastLetter('good')
