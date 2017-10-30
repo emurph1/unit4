@@ -16,7 +16,7 @@ print(average(1,2,3))
 
 def lastLetter(word):
     for ch in word:
-        letter = last(ch)
+        letter = ch
         print(letter)
 lastLetter('Smedinghoff')
 
