@@ -10,3 +10,8 @@ def average(num1, num2, num3):
     print((num1+num2+num3)/3)
 
 average(1,2,3)
+
+def lastLetter(word):
+    for ch in word:
+        print(ch)
+word('good')
