@@ -16,8 +16,8 @@ print(average(1,2,3))
 
 def lastLetter(word):
     for ch in word:
-        letter = ch
-        print(letter)
+        if ch == ' ':
+            print(letter)
 lastLetter('Smedinghoff')
 
 def same(x,y):
