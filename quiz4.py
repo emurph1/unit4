@@ -3,8 +3,9 @@
 #quiz4.py -
 
 def csia(word):
-    print(word*5)
-csia('computer science is awesome, ')
+    while i <= 5:
+        print(word)
+csia('Computer Science is Awesome, ')
 
 def average(num1, num2, num3):
     print((num1+num2+num3)/3)
@@ -12,8 +13,6 @@ def average(num1, num2, num3):
 average(1,2,3)
 
 def lastLetter(word):
-    length = len(word)
-    last = max(length)
     for ch in word:
         if ch == last:
             print(ch)
