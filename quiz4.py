@@ -13,5 +13,6 @@ average(1,2,3)
 
 def lastLetter(word):
     for ch in word:
-        print(ch)
-word('good')
+        length = len(word)
+        print(length)
+lastLetter('good')
