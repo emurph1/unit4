@@ -14,7 +14,7 @@ def average(num1, num2, num3):
 
 print(average(1,2,3))
 
-def lastLetter(letter):
+def lastLetter(str(letter)):
     for ch in letter:
         letter -= ch
         print(ch)
