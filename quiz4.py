@@ -15,7 +15,7 @@ def average(num1, num2, num3):
 print(average(1,2,3))
 
 def lastLetter(letter):
-    for ch in letter:
+    for ch in word:
         letter += ch
 lastLetter('good')
 
