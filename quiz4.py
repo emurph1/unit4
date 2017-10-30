@@ -17,7 +17,7 @@ print(average(1,2,3))
 def lastLetter(letter):
     for ch in letter:
         letter += ch
-        return(ch)
+        print(ch)
 lastLetter('good')
 
 def same(x,y):
