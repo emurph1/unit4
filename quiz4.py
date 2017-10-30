@@ -15,8 +15,8 @@ def average(num1, num2, num3):
 print(average(1,2,3))
 
 def lastLetter(word):
-    for ch in word:
-        if ch == ' ':
+    letter = ' '
+    for ch not in word:
             print(letter)
 lastLetter('Smedinghoff')
 
