@@ -15,10 +15,9 @@ def average(num1, num2, num3):
 print(average(1,2,3))
 
 def lastLetter(word):
-    letter = ' '
-    for ch not in word:
-        letter += ch
-        print(ch)
+    for ch in word:
+        letter = ch
+    print(ch)
 lastLetter('Smedinghoff')
 
 def same(x,y):
