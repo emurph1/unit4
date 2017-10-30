@@ -4,4 +4,4 @@
 
 def csia(word):
     print(word*5)
-csia('computer science is awesome')
+csia('computer science is awesome, ')
