@@ -16,8 +16,12 @@ average(1,2,3)
 
 def lastLetter(word):
     for ch in word:
-        print(ch)
-        if ch + ' ' == ' ':
-            print(ch)
         
 lastLetter('good')
+
+def same(x,y):
+    if x = y:
+        return True
+    else:
+        return False
+same(1,1)
