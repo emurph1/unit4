@@ -3,8 +3,10 @@
 #quiz4.py -
 
 def csia(word):
+    i = 0
     while i <= 5:
         print(word)
+        i += 1
 csia('Computer Science is Awesome, ')
 
 def average(num1, num2, num3):
